@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Groovy-Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="keycloak-java" />
+        <module name="keycloak-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cf-keycloak" target="1.7" />
+      <module name="keycloak-admin" target="1.7" />
+      <module name="keycloak-java" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="GreclipseSettings">
+    <option name="greclipsePath" value="$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-eclipse-batch/2.3.7-01/groovy-eclipse-batch-2.3.7-01.jar" />
+  </component>
+</project>

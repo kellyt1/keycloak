@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <!--environment variables-->
+    <Environment name="TOKENENDPOINT" value="/realms/tk-apps-realm/protocol/openid-connect/token" type="java.lang.String" override="false"/>
+    <Environment name="USERENDPOINT" value="/realms/tk-apps-realm/protocol/openid-connect/userinfo" type="java.lang.String" override="false"/>
+    <Environment name="CLIENTID" value="tk-apps" type="java.lang.String" override="false"/>
+    <Environment name="SERVER" value="https://authenticator4.nonprod.health.state.mn.us/auth" type="java.lang.String" override="false"/>
+
+</Context>
